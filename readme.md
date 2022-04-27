@@ -1,11 +1,11 @@
 # Tecnologias
-<li><strong>Frontend</strong></li>
+## Frontend
     <li>HTML</li>
     <li>CSS</li>
     <li>Flexbox</li>
     <li>Bootstrap</li>
-
-<li><strong>Backend</strong></li>
+    
+##Backend
     <li>PHP</li>
     <li>Firebase</li>
 
