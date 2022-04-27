@@ -1,13 +1,13 @@
 # Tecnologias
 ## Frontend
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Flexbox</li>
-    <li>Bootstrap</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Flexbox</li>
+<li>Bootstrap</li>
     
-##Backend
-    <li>PHP</li>
-    <li>Firebase</li>
+## Backend
+<li>PHP</li>
+<li>Firebase</li>
 
 # Dependências
 <li>composer require kreait/firebase-php</li>
