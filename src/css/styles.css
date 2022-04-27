@@ -1,0 +1,145 @@
+* {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+ background: #e6a490;
+ background: radial-gradient(circle, rgba(236,187,172,1) 35%, rgba(58,100,80,0.5186449579831933) 100%);
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  font-size: 3vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+.bg-light {
+  background-color: #ecbbac !important;
+  color: #ffffff !important;
+}
+.collapse.navbar-collapse {
+  justify-content: end;
+}
+
+
+.btn.btn-link.btn-floating.btn-lg.text-dark.m-1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*TEXTOS*/
+.title {
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.paragraph{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.paragraph strong, .paragraph span{
+  color: #3a6450;
+}
+
+/*SERVICES*/
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.grid{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.grid-card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+}
+
+.card-img{
+  min-width: 120px;
+  max-width: 250px;
+  border-radius: 150px;
+  border: 2px solid #3a6450;
+  margin: 10px;
+}
+
+/*ABOUT*/
+#about {
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+}
+#about div {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-about {
+  max-height: 350px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+}
+.carousel-item img {
+  height: 250px;
+}
+.container-localization {
+  justify-content: space-around;
+}
+.container-localization section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa{
+  border: 2px solid #3a6450;
+  width: 40%; 
+  height: 30vh;
+}
+
+footer {
+background-color: #88a093;
+color: white;
+}
+
+@media (max-width: 500px){
+
+}
+
+
+@media (max-width: 660px) {
+  .container-localization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-localization div:nth-child(1) {
+    padding-bottom: 20px;
+  }
+  .container-localization iframe:nth-child(2) {
+    width: 60vw;
+  }
+}
